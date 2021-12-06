@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url(./root.css);
+
+nav{
+    backdrop-filter: blur(25px) saturate(117%);
+    -webkit-backdrop-filter: blur(25px) saturate(117%);
+    background-color: rgba(255, 255, 255, 0.64);
+
+}
+
+#logo{
+    
+    font-weight: bold;
+    color :var(--primary-blue);
+
+}
+.nav-item{
+    padding-right:25px;
+}
+
+
+#hamburger{
+    font: #000;
+    /* border-color: #000; */
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border:2px solid transparent;
+    
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #1DA1F2;
+  
+  }
+  
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-blue);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin:center;
+  }
+
+
+
+  
