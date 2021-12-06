@@ -6,9 +6,15 @@ function Header()
 <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
   <div className="container-fluid col-md-10">
 <a className="navbar-brand " id="logo" href="/">The <span id="id2">More</span></a>
+
+
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="fas fa-bars burger" role="button" aria-hidden="true"></span>
   </button>
+
+
+
+
 
 <div className="collapse navbar-collapse " id="navbarNav">
   <ul className="navbar-nav ml-auto dark ">

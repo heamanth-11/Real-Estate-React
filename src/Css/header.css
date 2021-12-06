@@ -55,6 +55,9 @@ nav{
     transform: scaleX(1);
     transform-origin:center;
   }
+  .burger{
+      color: var(--primary-blue);
+  }
 
 
 
