@@ -1,0 +1,27 @@
+.cta-section {
+    background-image: url(../Components/Assets/Building.png);
+    /* background: linear-gradient(to right, #274685 0%, #3db3c5 100%); */
+    color: #fff;
+  }
+  .cta-section h2 {
+    color: #00294F;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  @media screen and (max-width: 768px) {
+    .cta-section h2 {
+      font-size: 2rem;
+    }
+  }
+  .cta-section .btn {
+    background: #000000;
+    color: #fff;
+  }
+  .cta-section .btn i {
+    margin-right: 5px;
+    font-size: 24px;
+    line-height: 0;
+  }
+  .btnn{
+    size: 2px;
+}
