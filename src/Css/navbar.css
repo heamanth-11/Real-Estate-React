@@ -1,0 +1,12 @@
+@import "./root.css";
+
+/* for demo */
+nav{
+    color:var(--primary-blue);
+}
+/* you can remove that its just for demo */
+
+.Navbar{
+    color: var(--primary-blue);
+    text-align: center;
+}
