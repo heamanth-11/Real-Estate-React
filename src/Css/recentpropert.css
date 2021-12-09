@@ -1,0 +1,17 @@
+.recentproperty{
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+.rp-row{
+    padding: 2rem 5%;
+}
+.rcp-p{
+    padding: 1rem 15%;
+    color: var(--grey);
+   
+}
+.rcp-h1{
+    font-weight: 800;
+    padding-top: 1rem;
+}
