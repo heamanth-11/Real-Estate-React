@@ -5,11 +5,11 @@ function Footer()
         <>
       <footer className=" text-white pt-5 pb-4">
 
-<div className="container text-center text-md-left">
+<div className="container col-md-10 text-center text-md-left">
 
     <div className="row text-center text-md-left">
-
-        <div className="col-md-5 col-lg-3 col-xl-3 mx-auto mt-3">
+                        
+        <div className="col-md-3 col-lg-3 col-xl-3  mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">The More</h5>
             <div>
             <p>
@@ -63,7 +63,7 @@ function Footer()
             <a href="/" className="text-white" > Help</a>
         </p>
         </div>
-        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">Useful links</h5>
         <p>
             <a href="/" className="text-white" > Your Account</a>
@@ -87,10 +87,10 @@ function Footer()
 
     <div className="row align-items-center">
 
-        <div className="col-md-7 col-lg-8">
-            <p>	Copyright ©2020 All rights reserved by:
+        <div className="col-md-7 col-lg-8 ">
+            <p className="ml-3">	Copyright ©2020 All rights reserved by:
                 <a href="/" >
-                    <strong className="head">The More</strong>
+                    <strong className="head ml-2">The More</strong>
                 </a></p>
             
         </div>
