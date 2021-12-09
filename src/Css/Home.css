@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+
+
+
+
+
+.image-bg {
+    background-size: cover !important;
+    background-position: center !important;
+}
+.image-cover {
+    background-size: cover !important;
+    background-position: center !important;
+}
+.image-bottom {
+    background-size: auto !important;
+    background-position: bottom !important;
+}
+.home-bg{
+background-image: url(../Components/Assets/building.jpg);
+}
+.hero-banner h1{
+	font-weight:800;
+	line-height:1.3;
+    font-family: 'Jost', sans-serif;
+}
+.hero-banner p{
+	font-size:18px;
+}
+.hero-banner {
+    padding:5em 0 5em;
+    display: flex;
+    flex-wrap: wrap;
+	min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.hero-search-wrap {
+    position: relative;
+    background:#ffffff;
+    max-width: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding:30px 40px 40px;
+    box-shadow: 0 20px 30px rgba(0, 22, 84, 0.15);
+}
+.hero-search-wrap.hs-2 {
+    background:rgba(255,255,255,0.15);
+    border-radius:5px;
+    padding:1rem 1rem 0rem;
+}
+.hero-search-wrap.full-width {
+	width:100%;
+    max-width:100%;
+}
+.hero-search h1 {
+    text-transform: capitalize;
+    color: #003363 !important;
+	font-size:35px;
+    font-weight: 800;
+}
+.btn.search-btn {
+    background: #003363;
+    padding: 17px;
+    border-radius:5px;
+    box-shadow: 0 5px 24px rgba(31, 37, 59, 0.15);
+    color: #ffffff;
+    width: 100%;
+	font-size:1.2rem;
+}
+.btn.search-btn:hover, .btn.search-btn:focus{
+	color:#ffffff !important;
+}
+.hero-banner.dark-text h1, .hero-banner.dark-text p, .hero-banner.dark-text h1, .hero-banner.dark-text  p{
+	color:#4d5968;
+}
+
