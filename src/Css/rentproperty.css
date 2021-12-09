@@ -21,9 +21,12 @@
 }
 .no-img h6{
     font-family: var(--Poppins);
-    font-weight: 800;
-    line-break: 1;
-    line-height: 1;
+    font-weight: 600;
+    line-break: 8px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+
+    
 }
 .no-img p{
     color: gray;
@@ -42,7 +45,7 @@
 
 }
 .no-img{
-    padding: 10px 1rem 2rem 1rem;
+    padding: 10px 2rem  2rem 1rem;
     color: black;
 
 }

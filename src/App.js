@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
      <Header />
+     <RecentProperty />
      <Store />
      <Footer />
-     <RecentProperty />
+    
     </div>
   );
 }
