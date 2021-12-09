@@ -4,7 +4,7 @@ function Header()
 { return(
 <div className="header">
 <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
-  <div className="container-fluid col-md-10">
+  <div className="container-fluid col-md-10 px">
 <a className="navbar-brand " id="logo" href="/">The <span id="id2">More</span></a>
 
 
