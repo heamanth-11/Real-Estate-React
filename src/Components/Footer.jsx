@@ -9,7 +9,7 @@ function Footer()
 
     <div className="row text-center text-md-left">
                         
-        <div className="col-md-3 col-lg-3 col-xl-3  mx-auto mt-3">
+        <div className="col-md-3 col-lg-4 col-xl-3  mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">The More</h5>
             <div>
             <p>
@@ -28,7 +28,7 @@ function Footer()
             
         </div>
 
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">Navigations</h5>
         <p>
             <a href="/" className="text-white" > About Us</a>
@@ -48,7 +48,7 @@ function Footer()
 
         </div>
 
-        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">Useful links</h5>
         <p>
             <a href="/" className="text-white" > Rent</a>
@@ -63,7 +63,7 @@ function Footer()
             <a href="/" className="text-white" > Help</a>
         </p>
         </div>
-        <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold head">Useful links</h5>
         <p>
             <a href="/" className="text-white" > Your Account</a>
