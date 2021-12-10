@@ -3,7 +3,7 @@ function Achievement()
 {
     return(<>
     <div className="container col-md-10">
-      <div className="row">
+      <div className="row p-">
       <div className="col text-center ml">
       <br/>
       <br/>
@@ -16,7 +16,7 @@ function Achievement()
       <br/>
       <br/>
       <br/>
-      <div className="row col-md-auto">
+      <div className="row col-md-auto ">
     <div className="col  text-center">
     <b>20500+</b><br/>
     Completed Property

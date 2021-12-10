@@ -1,27 +1,33 @@
 @import url("./root.css");
 .ReviewCard{
-    padding: 1rem;
+    height:100%;
+    padding: 3rem;
     margin: auto;
 }
 .rev-card-wrap{
+    height:100%;
     background-color:var(--white);
-    border-radius: 10%;
-    padding: 1rem 1rem;
+    border-radius: 5%;
+    padding: 5rem 3rem;
     text-align: center;
     width: 100%;
-
+   
 }
 .ReviewCard img{
+   
     border-radius: 50%;
-    width: 30%;
+    width: 50%;
    
 }
 .ReviewCard p{
+    padding: 2rem 0;
     letter-spacing: 1.6px;
     line-height: 1.6;
 }
 .ReviewCard h6{
-    font-weight: 600;
+    font-size: 1.5rem;
+
+    font-weight: 800;
     color: var(--primary-blue);
 }
 @media screen and (max-width:700px) {

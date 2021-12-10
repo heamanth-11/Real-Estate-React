@@ -1,3 +1,7 @@
 .grey{
     color: var(--grey);
 }
+.h1{
+    color: var(--primary-blue);
+    font-weight: 800;
+}

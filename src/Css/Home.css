@@ -56,7 +56,7 @@ background-image: url(../Components/Assets/building.jpg);
 }
 .hero-search h1 {
     text-transform: capitalize;
-    color: #003363 !important;
+  
 	font-size:35px;
     font-weight: 800;
 }
@@ -75,4 +75,6 @@ background-image: url(../Components/Assets/building.jpg);
 .hero-banner.dark-text h1, .hero-banner.dark-text p, .hero-banner.dark-text h1, .hero-banner.dark-text  p{
 	color:#4d5968;
 }
-
+h1{
+    color: var(--primary-blue);
+}

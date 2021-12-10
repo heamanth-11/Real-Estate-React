@@ -11,7 +11,7 @@ function Home() {
             <div class="container">
 					<div class="hero-search-wrap">
 						<div class="hero-search">
-							<h1>Find accessible homes to rent</h1>
+							<h1><span className="h6">Find Your</span> Perfect Space</h1>
 						</div>
 						<div class="hero-search-content side-form" data-select2-id="12">
 							
