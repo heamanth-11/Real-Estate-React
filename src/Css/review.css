@@ -1,0 +1,38 @@
+@import url(./root.css);
+.review{
+    background-color: var(--bg-blue);
+    padding: 2rem 10%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.review h3 {
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    color: black;
+}
+.review .rev-p{
+    color: gray;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+    padding: 2rem 0;
+}
+.review-row{
+    
+    text-align: center;
+    margin: auto;
+}
+@media only screen and (max-width:700px) {
+    .review{
+        padding: 1rem 0;
+    }
+    .review h3{
+        letter-spacing: 1px;
+    }
+    .review p{
+        letter-spacing: 1px;
+        padding: 0.5rem;
+    }
+
+}

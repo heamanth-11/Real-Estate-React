@@ -6,6 +6,8 @@ import Achievement from "./Components/Achievement";
 
 import RecentProperty from "./Components/RecentProperty";
 import Home from "./Components/Home";
+import ReviewCard from "./Components/ReviewCard";
+import Review from "./Components/Review";
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
      <Achievement/>  
 
      <RecentProperty />
+     <Review />
      <Store />
      <Footer />
     
