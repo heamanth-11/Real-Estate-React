@@ -1,11 +1,9 @@
 .recentproperty{
     margin: auto;
-    color: black;
+    color: var(--primary-blue);
     text-align: center;
 }
 .rp-row{
-
-/*     padding: 3rem 15%; */
     padding: 2rem 10%;
 }
 .rcp-p{

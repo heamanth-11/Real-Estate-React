@@ -4,13 +4,14 @@ function Header()
 { return(
 <div className="header">
 <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
-  <div className="container-fluid col-md-10 px">
+  <div className="container-fluid col-md-10">
 <a className="navbar-brand " id="logo" href="/">The <span id="id2">More</span></a>
 
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="fas fa-bars burger" role="button" aria-hidden="true"></span>
-  </button>
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="" role="button" ><i className="fas fa-bars burger" aria-hidden="true" ></i></span>
+      </button>
 
 
 

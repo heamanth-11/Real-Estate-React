@@ -14,7 +14,7 @@
     }
   }
   .cta-section .btn {
-    background: #000000;
+    background: var(--primary-blue);
     color: #fff;
   }
   .cta-section .btn i {
@@ -22,6 +22,7 @@
     font-size: 24px;
     line-height: 0;
   }
-  .fa-apple{
-    font-size: 20px;
+  .btnn{
+    font-size: 4rem;
+    padding: 1rem;
   }

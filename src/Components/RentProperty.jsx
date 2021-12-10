@@ -4,7 +4,7 @@ function RentProperty(props){
 
 
     return <div className="rentproperty col-lg-4 col-md-6 col-sm-12-col-12">
-        <div className="col-lg-10 rent-col">
+        <div className="col-lg-11 rent-col">
             <img src={props.img} alt={props.alt} />
             <div className="no-img">
                 <p>For Rent</p>
